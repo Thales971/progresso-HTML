@@ -10,16 +10,28 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
 }
 
-.quadrados {
+.c1 {
     width: 150px;
     height: 150px;
-    background-color: rgb(8, 240, 0);
+    background-color: rgb(235, 36, 10);
+    border-radius: 150px;
 }
 
-.quadrados2 {
+.c2 {
     width: 150px;
     height: 150px;
-    background-color: rgb(144, 12, 252);
+    background-color: rgb(252, 216, 12);
+    border-radius: 150px;
 }
+.c3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(100, 252, 12);
+    border-radius: 150px;
+}
+
+
+
