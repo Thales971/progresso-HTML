@@ -1,30 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario LIMA</title>
-    <link rel="stylesheet" href="../assets/styles/formulario.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../assets/styles/formulario.css" />
+  </head>
+  <body>
     <form action="#">
-        <div class="nomeNinja">
+      <div class="nomeNinja">
         <label for="nome">Nome do Ninja🥷</label>
-        <input type="text" name="nome" placeholder="Digite o nome do ninja..."
-        required
+        <input
+          type="text"
+          name="nome"
+          placeholder="Digite o nome do ninja..."
+          required
         />
-        </div>
+      </div>
 
-        <div class="rank">
-         <label for="rank">Escolha o rank do ninja:</label>
+      <div class="rank">
+        <label for="rank">Escolha o rank do ninja:</label>
         <select name="rank" id="rank">
-            <option value="">Selecione</option>
-            <option value="genin">Genin</option>
-            <option value="Chunin">Chunin</option>
-            <option value="Jonin">jonin</option>
-            <option value="Kage">Kage</option>
+          <option value="">Selecione</option>
+          <option value="genin">Genin</option>
+          <option value="Chunin">Chunin</option>
+          <option value="Jonin">jonin</option>
+          <option value="Kage">Kage</option>
         </select>
+      </div>
+
+      <div class="tipo">
+        <label for="tipo">Qual o nível da missão?</label>
+        <div>
+            <label for="d">
+                <input type="radio" name="tipo" value="d" />
+                D
+              </label>
+        
+      </div>
+
+      <div class="tipo">
+        <label for="tipo"></label>
+        <label for="d">
+          <input type="radio" name="tipo" value="d" />
+          C
+        </label>
+      </div>
+
+      <div class="tipo">
+        <label for="tipo"></label>
+        <label for="d">
+          <input type="radio" name="tipo" value="d" />
+          B
+        </label>
+      </div>
+
+      <div class="tipo">
+        <label for="tipo"></label>
+        <label for="d">
+          <input type="radio" name="tipo" value="d" />
+          A
+        </label>
+        <div class="tipo">
+          <label for="tipo"></label>
+          <label for="d">
+            <input type="radio" name="tipo" value="d" />
+            S
+          </label>
         </div>
+      </div>
+
+      <div class="especialidade">
+        <label for="especialidade">Qual a especialidade ninja?</label>
+
+        <div>
+            <label for="especialidade">
+                <input type="checkbox" name="especialidade" value="taijutsu" />
+                👊 taijutsu
+            </label>
+        <div>
+            <label for="especialidade">
+                <input type="checkbox" name="especialidade" value="taijutsu" />
+                ⛈️ ninjutsu
+            </label>
+        <div>
+            <label for="especialidade">
+                <input type="checkbox" name="especialidade" value="taijutsu" />
+                🌀 genjutsu
+            </label>
+        <div>
+            <label for="especialidade">
+                <input type="checkbox" name="especialidade" value="taijutsu" />
+                💊Ninja médico
+            </label>
+        </div>
+      </div>
     </form>
-</body>
+  </body>
 </html>
